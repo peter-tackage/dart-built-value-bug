@@ -1,5 +1,11 @@
 ## About 
-A demo of a possible bug in `built_value` error reporting when SDK collections are used.
+A demo of a bug in `built_value` error reporting when SDK collections are used.
+
+Reported under: https://github.com/google/built_value.dart/issues/675
+
+## Description
+
+(The issue description is clearer)
 
 When using an SDK `List` (rather than a `build_collection` `BuiltList`) in a class, normally `build_value` reports an error and suggest that you replace it with `BuiltList`.
 
